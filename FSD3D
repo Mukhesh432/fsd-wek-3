@@ -1,0 +1,28 @@
+import Child from "./Child"; 
+ 
+function App() { 
+ 
+  return ( 
+ 
+    <div> 
+ 
+      <h1>React Props Example</h1> 
+ 
+      <Child name="MUKHESH" /> 
+ 
+    </div> 
+ 
+  ); 
+ 
+} 
+ 
+export default App;
+function Child(props) { 
+ 
+  return ( 
+    <h2>Welcome {props.name }</h2> 
+  ); 
+ 
+} 
+ 
+export default Child; 
